@@ -8,6 +8,6 @@ RUN patch -p1 < ninjamsrv-static.patch
 WORKDIR /build/ninjam/server
 RUN make
 
-FROM alpine
+FROM scratch
 COPY --from=build /build/ninjam/server/ninjamsrv /app/ninjamsrv
 CMD [ "/app/ninjamsrv", "/app/config/config.cfg" ]
