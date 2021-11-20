@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  ninjam:
+    build: .
+    ports:
+      - 2049:2049
+    working_dir: /app
+    volumes:
+      - ./config/:/app/config/

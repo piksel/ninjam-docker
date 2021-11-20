@@ -1,0 +1,10 @@
+diff --git a/ninjam/server/Makefile b/ninjam/server/Makefile
+index 75176df9..5767eff9 100644
+--- a/ninjam/server/Makefile
++++ b/ninjam/server/Makefile
+@@ -1,4 +1,4 @@
+-CFLAGS = -O2 -Wall -Wno-reorder
++CFLAGS = -O2 -Wall -Wno-reorder -static
+ 
+ ifdef MAC
+ CFLAGS += -D_MAC
