@@ -1,3 +1,3 @@
 [submodule "ninjam"]
 	path = ninjam
-	url = https://www-dev.cockos.com/ninjam/ninjam.git
+	url = git@github.com:justinfrankel/ninjam.git
